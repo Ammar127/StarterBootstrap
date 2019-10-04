@@ -17,4 +17,8 @@ import { Add3Component } from './add3/add3.component';
     HomeRoutingModule
   ]
 })
-export class HomeModule { }
+export class HomeModule {
+  constructor() {
+    console.log('inside of therouting file')
+  }
+ }

@@ -1,1 +1,152 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+body {
+  background-color: #3B4270 !important;
+  color: #7B7A77;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 8%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #7B7A77;
+  background-color: #1A1B2F;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.sidenav a {
+  text-decoration: none;
+  padding: 10px 0;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: blue;
+  text-decoration: none;
+}
+.navbar {
+    margin-left: 8%;
+}
+.doe{
+    height: 40px;
+    width: 40px;
+
+}
+.abc{
+  width: 80%;
+  height: auto;
+}
+.active-icon{
+ background: linear-gradient(#44A0EE, #1F629A) !important;
+ color: #F9F7F6 !important;
+}
+.inactive-icon{
+  color: #1F629A !important;
+  background: #FDFDFD !important;
+}
+.align{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  color: blue;
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+}
+.border-right{
+    border-left: 2px solid lightgrey;
+    padding-left: 10px;
+}
+.card{
+    height: 400px;
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 4% !important;
+
+
+}
+
+.ctrl{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+}
+.bar{
+  width: 80%;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 110px;
+  border-radius: 80px !important
+}
+.mar{
+  margin-top: 75px;
+}
+.btn1{
+  width:100%;
+}
+.navbar-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 5%;
+  margin-right: 1rem;
+  font-size: 1.09375rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+
+.search {
+  text-shadow: none;
+  font-size: 13px;
+  line-height: 25px;
+  transition: all 0.5s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+  float: left;
+  margin: 20px 0 0 0;
+
+
+}
+.search label {
+  cursor: pointer;
+}
+.search i {
+    width: 16px;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 1px;
+    font-size: 16px;
+    margin-right: 13px;
+  }
+  .search  input {
+    font-size: 16px;
+    background: none;
+    border: none;
+    outline: none;
+    width: 500px;
+    padding: 0;
+    margin: 0 0 0 0;
+    height: 27px;
+    border-bottom: 1px solid #7B7A77;
+  }
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  text-align: center !important;
+
+}

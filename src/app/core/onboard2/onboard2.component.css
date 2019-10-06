@@ -1,0 +1,41 @@
+h5{
+  color: #626794;
+}
+.round{
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(#44A0EE, #1F629A) !important;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.picon {
+  position: absolute;
+  margin-top: 50px !important;
+  margin-left: 50px;
+  background: white;
+  text-align: center;
+  border-radius: 50%;
+  color: black;
+  font-size: 23px;
+  height: 50px;
+  width: 50px;
+  z-index: 1000px;
+}
+button {
+ border-radius: 30px;
+}
+.txt {
+    font-size: 14px;
+    color: #7B7A77;
+    line-height: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+.bottom-txt {
+  color: rgb(109, 108, 108);
+    font-size: 14px !important;
+    font-weight: 20px;
+}

@@ -8,11 +8,12 @@ import { Onboard2Component } from './onboard2/onboard2.component';
 import { Onboard3Component } from './onboard3/onboard3.component';
 import { Onboard4Component } from './onboard4/onboard4.component';
 import { Onboard5Component } from './onboard5/onboard5.component';
+import { PageComponent } from './page/page.component';
 
 
 
 @NgModule({
-  declarations: [CoreComponent, LoginComponent, Onboard1Component, Onboard2Component, Onboard3Component, Onboard4Component, Onboard5Component],
+  declarations: [CoreComponent, LoginComponent, Onboard1Component, Onboard2Component, Onboard3Component, Onboard4Component, Onboard5Component, PageComponent],
   imports: [
     CommonModule,
     CoreRoutingModule

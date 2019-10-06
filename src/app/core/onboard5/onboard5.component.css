@@ -1,0 +1,71 @@
+h5{
+  color: #626794;
+}
+.round{
+  height: 125px;
+  width: 125px;
+  background: linear-gradient(#44A0EE, #1F629A) !important;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.picon {
+  position: absolute;
+  margin-top: 20px !important;
+  margin-left: 10px;
+  background: white;
+  text-align: center;
+  border-radius: 50%;
+  color: black;
+  font-size: 23px;
+  height: 40px;
+  width: 40px;
+  z-index: 1000px;
+}
+button {
+  border-radius: 30px;
+  background-color: #13C989;
+ height: 35px !important;
+ text-align: center;
+ }
+
+.txt {
+    font-size: 12px;
+    font-weight: bold !important;
+    color: #7B7A77;
+    line-height: 15px;
+    margin: 0px;
+    padding: 0px;
+    display: block !important;
+}
+.bottom-txt {
+  color: rgb(109, 108, 108);
+    font-size: 14px !important;
+    font-weight: 20px;
+}
+
+.side1{
+  width: 400px;
+  text-align: left;
+}
+.divider {
+  background-color: #D8D8D8;
+  height: 2px;
+}
+.success-text{
+  color: #13C989;
+}
+.round-div{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: linear-gradient(#44A0EE, rgb(48, 127, 192)) !important;
+
+}
+.cont {
+  display: flex;
+}
+.cont > div {
+  flex: 1; /*grow*/
+}

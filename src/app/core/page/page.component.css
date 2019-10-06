@@ -1,0 +1,14 @@
+a{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #53556A;
+  margin-right: 10px;
+
+}
+div{
+  margin-left: 100px !important;
+}
+.active{
+  background: #21D190;
+}

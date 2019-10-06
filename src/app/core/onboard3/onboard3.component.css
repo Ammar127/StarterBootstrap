@@ -1,0 +1,76 @@
+h5{
+  color: #626794;
+}
+.round{
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(#44A0EE, #1F629A) !important;
+  border-radius: 50%;
+  text-align: center;
+
+}
+
+.picon {
+  position: absolute;
+  margin-top: 50px !important;
+  margin-left: 50px;
+  background: white;
+  text-align: center;
+  border-radius: 50%;
+  color: black;
+  font-size: 23px;
+  height: 50px;
+  width: 50px;
+  z-index: 1000px;
+}
+button {
+ border-radius: 30px;
+}
+.txt {
+    font-size: 12px;
+    font-weight: bold !important;
+    color: #7B7A77;
+    line-height: 15px;
+    margin: 0px;
+    padding: 0px;
+    display: block !important;
+}
+.bottom-txt {
+  color: rgb(109, 108, 108);
+    font-size: 14px !important;
+    font-weight: 20px;
+}
+
+.side1{
+  width: 400px;
+  text-align: left;
+}
+.divider {
+  background-color: #D8D8D8;
+  height: 2px;
+}
+.success-text{
+  color: #13C989;
+}
+.round-div{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: linear-gradient(#44A0EE, rgb(48, 127, 192)) !important;
+
+}
+.fa20{
+  font-size: 40px !important;
+  color: white;
+}
+.parent {
+  display: flex;
+}
+.narrow {
+  width: 350px;
+
+}
+.wide {
+  flex: 1;
+  /* Grow to rest of container */
+}

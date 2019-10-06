@@ -1,1 +1,21 @@
-<p>onboard4 works!</p>
+<div class="row mt-5">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="card bg-light">
+        <div class="card-body text-center px-4 mx-4 ">
+          <h5 class="mt-1">Setup Sim Card</h5>
+
+          <p class="txt "> Insert the Sim card of</p>
+          <p class="txt mb-3">your Internet provider</p>
+          <div class="round my-5 ml-5">
+            <img class="mt-4" height="100" src="assets/sim.png" alt="">
+          </div>
+          <button class="btn  text-dark btn-block " [routerLink]="['/5']"><span class="mb-1">GO NEXT  <i style="margin-top: -5px;" class="fa fa-caret-right pull-right fa-2x" aria-hidden="true"></i></span></button>
+          <a class="txt my-2"> Setup manually instead</a>
+        </div>
+
+      </div>
+      <app-page></app-page>
+    </div>
+    <div class="col-md-3"></div>
+  </div>

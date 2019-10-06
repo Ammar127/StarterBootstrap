@@ -1,1 +1,24 @@
-<p>onboard2 works!</p>
+<div class="row mt-5">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="card bg-light">
+        <div class="card-body text-center px-4 mx-4 ">
+
+          <h5>Setup Swarm Home Pro</h5>
+          <p class="txt">
+            Pres and hold top button
+          </p>
+          <p class="txt">on your Swarm Home Pro</p>
+          <a routerLink="/3" class="picon" href=""><i class=" mt-3 fas fa-hand-point-up"></i></a>
+
+          <div [routerLink]="['/3']" class="round ml-4 mt-5">
+            <img class="mt-5" height="100" src="assets/device.png" alt="">
+          </div>
+          <p class="bottom-txt mt-4"> Setup manually instead</p>
+        </div>
+
+      </div>
+      <app-page></app-page>
+    </div>
+    <div class="col-md-3"></div>
+  </div>

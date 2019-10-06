@@ -1,0 +1,8 @@
+.down{
+  margin-top: 200px;
+  color: #727375;
+  margin-left: 150px;
+}
+.down > p{
+  line-height: 10px !important;
+}

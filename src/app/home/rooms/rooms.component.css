@@ -1,15 +1,18 @@
 .car{
-  margin: 5px;
+  margin: 15px;
   background: #4B4F6C;
-  height: auto !important;
-  width: 200px !important;
+  height: 180px !important;
+  width: 250px !important;
   border-radius: 10px;
   text-align: center;
-  padding-top: 40px
+  padding-top: 40px;
 }
-.row{
-  margin: 0;
-  padding: 0;
+.row1{
+  margin-left: 150px !important;
+  padding: 0 !important;
+  display: flex !important;
+  z-index: 100;
+
 }
 .car:hover{
   background:#595F91;

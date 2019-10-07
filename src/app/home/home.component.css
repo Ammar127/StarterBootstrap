@@ -1,22 +1,22 @@
 body {
   background-color: #3B4270 !important;
 }
-
 .mar{
   margin-top: 75px;
+  margin-left: -90px !important;
 }
 .btn1{
-  width:550px;
+  width:700px;
   margin-top: 15px;
   margin-right: -35px ;
-  margin-left: 80px ;
+  margin-left: px !important;
   border-radius: 10px !important;
   background-color: #3B4060 !important;
   color: white !important;
   padding: 10px 0 !important;
 }
 .btn2{
-  width:550px;
+  width:735px;
   margin-top: 15px;
   margin-left: -35px !important ;
   border-radius: 10px !important;

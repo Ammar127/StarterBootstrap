@@ -1,0 +1,42 @@
+p {
+  color: gray;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: -5px;
+}
+h5 {
+  color: #3b4270;
+  font-size: 16px;
+}
+.device-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius:  15px !important;
+  background: #FFFFFF;
+
+}
+a{
+  font-size: 12px;
+  border-radius: 30px !important;
+ background-color: #13C989;
+}
+h4{
+  color: #1E1E1E;
+}
+
+.card {
+  background: #F3F3F3 !important;
+}
+.img-div {
+  width: 20%;
+}
+.parent {
+  display: flex;
+}
+.narrow {
+  width: 35%;
+
+}
+.wide {
+  flex: 1;
+  /* Grow to rest of container */
+}

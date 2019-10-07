@@ -7,6 +7,7 @@ import { Add2Component } from './add2/add2.component';
 import { Add3Component } from './add3/add3.component';
 import { RoomsComponent } from './rooms/rooms.component';
 import { NodevicesComponent } from './nodevices/nodevices.component';
+import { Add4Component } from './add4/add4.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,7 @@ const routes: Routes = [
       { path: '1', component: Add1Component },
       { path: '2', component: Add2Component },
       { path: '3', component: Add3Component },
+      { path: '4', component: Add4Component },
       { path: 'rooms', component: RoomsComponent },
 
 

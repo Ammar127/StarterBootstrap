@@ -1,0 +1,21 @@
+p {
+  color: gray;
+  font-size: 14px;
+  line-height: 1;
+  margin-top: -5px;
+}
+h5 {
+  color: #3b4270;
+  font-size: 16px;
+}
+button{
+  border-radius: 30px;
+ background-color: #13C989;
+}
+.rad{
+  border-radius: 50px;
+  font-size: 12px;
+}
+input::placeholder , option , select {
+  font-weight: bold;
+}

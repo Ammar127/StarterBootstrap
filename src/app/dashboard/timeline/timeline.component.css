@@ -1,0 +1,33 @@
+.high{
+    height: 500px;
+    width: 2%;
+    background: #575D92;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.card{
+    height: 620px;
+    width: 520px !important;
+    border-radius: 15px !important;
+    margin-top: 30px !important; 
+}
+.circl{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #20CD8E;
+    margin-top:50px;
+    margin-left: -8px;
+}
+.tbl{
+    /* position: relative; */
+    height: 90px;
+    width: 410px;
+    background: linear-gradient(to bottom right, #1D6096, #47A8F7);
+    margin-top: 90px;
+    border-radius: 12px;
+    margin-left: 30px;
+    display: block;
+}

@@ -1,18 +1,14 @@
 .car{
   margin: 15px;
   background: #4B4F6C;
-  height: 180px !important;
-  width: 250px !important;
+  height: 190px !important;
+  width: 260px !important;
   border-radius: 10px;
   text-align: center;
   padding-top: 40px;
 }
 .row1{
-  margin-left: 150px !important;
-  padding: 0 !important;
   display: flex !important;
-  z-index: 100;
-
 }
 .car:hover{
   background:#595F91;
@@ -26,4 +22,8 @@ p{
   line-height: 3px !important;
   color: rgb(147, 150, 173);
   font-size: 12px;
+}
+.cont{
+  margin-left: 120px !important;
+  /* padding-left: -150px !important; */
 }

@@ -14,7 +14,8 @@ const routes: Routes = [
     path: '',
     component: HomeComponent,
     children: [
-      { path: '', component: DevicesComponent },
+      { path: '', redirectTo: 'rooms', pathMatch: 'full' },
+      { path: 'devices', component: DevicesComponent },
       { path: 'nodevices', component: NodevicesComponent },
       { path: '1', component: Add1Component },
       { path: '2', component: Add2Component },

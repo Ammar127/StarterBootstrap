@@ -1,3 +1,6 @@
+a{
+  display: inline; 
+}
 .mar{
     margin-top: 75px;
     margin-left: -90px !important;
@@ -139,3 +142,40 @@
     border-radius: 50%;
     background: #959ABA;
   }
+  .flx{
+    display: flex;
+  }
+  .rond{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: white;
+    color: #20659E !important;
+  }
+  .dlr{
+    margin-top: -20px;
+    margin-left: 40px;
+    padding: 0 !important;
+  }
+
+ 
+  
+  .widgets_div .icon_div {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align:middle;
+  }
+  
+ 
+  
+  .widgets_div .text_div {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  .widgets_div .text_div span {
+    font-size: 12px;
+  }
+  
+ 

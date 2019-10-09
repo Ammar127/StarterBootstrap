@@ -9,7 +9,8 @@ const routes: Routes = [
     path: '',
     component: DashboardComponent,
     children: [
-      { path: '', component: DashComponent },
+      {path: '', redirectTo: 'dash', pathMatch: 'full'},
+      { path: 'dash', component: DashComponent },
       { path: 'timeline', component: TimelineComponent },
     ]
   }

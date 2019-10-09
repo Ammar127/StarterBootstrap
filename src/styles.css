@@ -154,3 +154,8 @@ a{
 
 }
 
+.jumbotron{
+  background: #3B4270 !important;
+  margin-top: 0 !important;
+  padding: 0 !important;
+}

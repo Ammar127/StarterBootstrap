@@ -1,11 +1,13 @@
 .car{
+  cursor: pointer;
   margin: 15px;
   background: #4B4F6C;
   height: 190px !important;
   width: 260px !important;
   border-radius: 10px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
+  color: #7E7F8E;
 }
 .row1{
   display: flex !important;

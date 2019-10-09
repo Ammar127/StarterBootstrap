@@ -8,16 +8,19 @@
     /* margin-right: -35px ; */
     /* marg in-left: px !important; */
     border-radius: 10px !important;
-    background-color: #3B4060 !important;
+    background-color: #3B4060;
     color: white !important;
     padding: 10px 0 !important;
+  }
+  .active{
+    background-color: #3B5F9B !important;
   }
   .btn2{
     width:700px;
     margin-top: 15px;
     /* margin-left: -35px !important ; */
     border-radius: 10px !important;
-    background-color: #3B5F9B !important;
+    background-color: #3B4060;
     color: white !important;
     padding: 10px 0 !important;
     /* z-index: 0 !important; */

@@ -1,13 +1,23 @@
-
-  <div class="jumbotron">
-    <div class="row mar" style="margin-left: 150px !important;">
-      <div class="btn-group">
-        <a routerLink="/dashboard/dash"  routerLinkActive="active" class="btn btn1">Dashboard</a>
-        <a routerLink="/dashboard/timeline"  routerLinkActive="active" class="btn btn-append btn2">Timeline</a>
-      </div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="dashboard-btn-wrapper">
+            <ul class="dashboard-btn">
+                <li class="active">
+                    <a href="">
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Timeline
+                    </a>
+                </li>
+            </ul>
+            <div class="add-icon">
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
 
     </div>
-    <div >
-    <router-outlet></router-outlet>
-  </div>
-  </div>
+</div>
+<router-outlet></router-outlet>

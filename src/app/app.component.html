@@ -1,5 +1,10 @@
-<section>
-  <app-header></app-header>
+<div class="s-wrapper">
   <app-sidebar></app-sidebar>
-</section>
-<router-outlet></router-outlet>
+  <div id="content-wrapper" class="d-flex flex-column">
+    <!-- Main Content -->
+    <div id="content">
+      <app-header></app-header>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
